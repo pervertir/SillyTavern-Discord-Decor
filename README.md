@@ -4,9 +4,17 @@ A server plugin for the [SillyTavern-Discord](https://github.com/pervertir/Silly
 
 - Browsers can't read most of Discord's files, but a server can. The plugin fetches them when the theme asks.
 - It only reads Discord's collectible files from `cdn.discordapp.com` and its App Icon pictures from `discord.com/assets`. It refuses any other address.
-- The theme saves the files to your SillyTavern user files. This repo contains code only, and no art.
+- The theme saves the files to your SillyTavern user files. This repo's main branch holds code and screenshots, and no art files.
 
 The art belongs to Discord and its licensors. Your copies are for your own use.
+
+![offline copies](.github/screenshots/offline-copies.webp)
+
+![offline copies](.github/screenshots/clip-offline-copies.webp)
+
+![change look](.github/screenshots/clip-change-look.webp)
+
+Every feature, with pictures: **[UI_SCREENSHOTS.md](UI_SCREENSHOTS.md)**.
 
 ## When Discord refuses a file
 
