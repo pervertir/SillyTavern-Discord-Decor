@@ -10539,13 +10539,13 @@
   "path": "nameplates/assets/collectibles/nameplates/woody%E2%80%99s_badge/1513664126683975760/static.png",
   "size": 41548,
   "sha256": "9603435e9a1d49c8f7e11c4271ba1fe62896b9a7ac717f177e4080e0ddb45ba3",
-  "url": "https://cdn.discordapp.com/assets/collectibles/nameplates/woody’s_badge/1513664126683975760/static.png"
+  "url": "https://cdn.discordapp.com/assets/collectibles/nameplates/woody\u2019s_badge/1513664126683975760/static.png"
  },
  {
   "path": "nameplates/assets/collectibles/nameplates/woody%E2%80%99s_badge/1513664126683975760/asset.webm",
   "size": 16761,
   "sha256": "de189691a8eb8fed2ff3fe3bff27211d8ce528ceadc6fd8fd8895a80f78a169f",
-  "url": "https://cdn.discordapp.com/assets/collectibles/nameplates/woody’s_badge/1513664126683975760/asset.webm"
+  "url": "https://cdn.discordapp.com/assets/collectibles/nameplates/woody\u2019s_badge/1513664126683975760/asset.webm"
  },
  {
   "path": "nameplates/assets/collectibles/nameplates/gargamel/pandoran_seas_ilu/static.png",
@@ -20350,5 +20350,137 @@
   "size": 1033885,
   "sha256": "d28c408a8d8f6e0455d30b26d7671375b9f6940944b43afa92a4bce9558fe783",
   "url": "https://cdn.discordapp.com/media/v1/collectibles-shop/1506402031986802930/1519088951892250755/static"
+ },
+ {
+  "path": "app-icons/BRAND_DARK.webp",
+  "size": 688,
+  "sha256": "d436fc58f2b5160851820327a655f2562bd807aa6a6169ff9965216e26505cfa",
+  "url": "https://discord.com/assets/e8396e79419904ca.webp"
+ },
+ {
+  "path": "app-icons/MANGA.webp",
+  "size": 3808,
+  "sha256": "2110c338b333f9dd1faa241ed87c22e597e0caa997fbcc5ccd4833ee2feaf38b",
+  "url": "https://discord.com/assets/2d62663c4b493f8e.webp"
+ },
+ {
+  "path": "app-icons/MATTE_DARK.webp",
+  "size": 416,
+  "sha256": "cca456a1ec1337b3f97a1e38a5eaa83b113e9badc69ab264a027589a152f4ef0",
+  "url": "https://discord.com/assets/28f89b5f78dd6f80.webp"
+ },
+ {
+  "path": "app-icons/MATTE_LIGHT.webp",
+  "size": 220,
+  "sha256": "16b3995e02400232a41acd129c72859dfecc947a4635c9be1b9817c59208d70b",
+  "url": "https://discord.com/assets/96f9a2942150ba17.webp"
+ },
+ {
+  "path": "app-icons/PASTEL.webp",
+  "size": 988,
+  "sha256": "d4409846acbe03745790b6545815b9850f3e8a51e657fab5c2ad0a2edc89cb40",
+  "url": "https://discord.com/assets/22bb7108ad1c466f.webp"
+ },
+ {
+  "path": "app-icons/PIRATE.webp",
+  "size": 2900,
+  "sha256": "d471cb029bd24781af4cf52697a0eb13517725232ff981054eadc8d66c5ebb2d",
+  "url": "https://discord.com/assets/9af4b996c897420f.webp"
+ },
+ {
+  "path": "app-icons/CAMO.webp",
+  "size": 2298,
+  "sha256": "528c87a20cc8715763c2438645ad48efbd0e95b1e881baaf15190e9806cab01a",
+  "url": "https://discord.com/assets/9ad8ec824f71bd05.webp"
+ },
+ {
+  "path": "app-icons/SUNSET.webp",
+  "size": 1550,
+  "sha256": "83a71fed8cdd9d7f8eaa490e249eaf7b7dd161a50a540d1647e67f0325b4be3b",
+  "url": "https://discord.com/assets/5bf3279039efa66c.webp"
+ },
+ {
+  "path": "app-icons/GALAXY.webp",
+  "size": 2758,
+  "sha256": "f1c0c1e22bbeb238f26efc9f1fd982ba1f63f7406aba8247c0289f4e3f9400f0",
+  "url": "https://discord.com/assets/3a2d57c0bde9b218.webp"
+ },
+ {
+  "path": "app-icons/Y2K.webp",
+  "size": 1680,
+  "sha256": "517ef0ad45f8d61218c00dfeb17bb1753e8eb17bf3087d394ce24d9cf88d828c",
+  "url": "https://discord.com/assets/181e40b5ea872cdb.webp"
+ },
+ {
+  "path": "app-icons/CHERRY_BLOSSOM.webp",
+  "size": 3214,
+  "sha256": "eef0f8247ca4fe9bcc08b9ccf423830912da6e8c4f9b23b1baeec8f3504c9342",
+  "url": "https://discord.com/assets/1e208c512641758d.webp"
+ },
+ {
+  "path": "app-icons/BEANIE.webp",
+  "size": 2546,
+  "sha256": "22306e03b46a09ad639a0285586185a2e608df00ea842c21332d7877e6e3d8f1",
+  "url": "https://discord.com/assets/e14578cc054054c0.webp"
+ },
+ {
+  "path": "app-icons/GAMING.webp",
+  "size": 2106,
+  "sha256": "2556f8e49fdbcfeeb4aaa0e6689a1ed1b95d0f5894d7261e565a425c49b244bc",
+  "url": "https://discord.com/assets/5e5cc9b058e63987.webp"
+ },
+ {
+  "path": "app-icons/CIRCUIT.webp",
+  "size": 3872,
+  "sha256": "4d1d26c1e2576878674c7bcdcacaec77e3cdc19192f9d2d3ad5fc972b110085e",
+  "url": "https://discord.com/assets/82c7a89d15622af4.webp"
+ },
+ {
+  "path": "app-icons/HOLO_WAVES.webp",
+  "size": 4938,
+  "sha256": "633cc96728af17568e33b5cc9dc7d8cf1cc9a593bc43798bcb7cbbe88b42199e",
+  "url": "https://discord.com/assets/441d164362b711b1.webp"
+ },
+ {
+  "path": "app-icons/BLUSH.webp",
+  "size": 1874,
+  "sha256": "82d3e0d9b8778ef3667d2d32faed4752782dcffab7ad1d8901a4b3b57a7e9622",
+  "url": "https://discord.com/assets/e5f2a55421a6dc7e.webp"
+ },
+ {
+  "path": "app-icons/ANGRY.webp",
+  "size": 1792,
+  "sha256": "af05dc570c9f0a133cb37c145399f227fb4e782ccd68ebb1be93790d7faa9175",
+  "url": "https://discord.com/assets/9b50f7ba00ee941f.webp"
+ },
+ {
+  "path": "app-icons/CONTROLLER.webp",
+  "size": 720,
+  "sha256": "a9374e91f787889f44704574dfc31149cf005e0016bf14f2febab776c2c7fe20",
+  "url": "https://discord.com/assets/a629a2a3fe1ccbcc.webp"
+ },
+ {
+  "path": "app-icons/BLURPLE_TWILIGHT.webp",
+  "size": 8316,
+  "sha256": "caaf99f8ee18535fba834562356ff8e2753c86f3786bad90d56246b7a3965d42",
+  "url": "https://discord.com/assets/685b2900a9423534.webp"
+ },
+ {
+  "path": "app-icons/IN_RAINBOWS.webp",
+  "size": 7506,
+  "sha256": "60f2bd2a7d677b68196bca8b5490aec90c5cbef7c131a03ba5662be3bf6f3367",
+  "url": "https://discord.com/assets/10cd104567438715.webp"
+ },
+ {
+  "path": "app-icons/MIDNIGHT_PRISM.webp",
+  "size": 862,
+  "sha256": "28f268345d6beb73cc9728d835b5c32a89955183570faeb497ff97cc5b788034",
+  "url": "https://discord.com/assets/7ebbc1790864207a.webp"
+ },
+ {
+  "path": "app-icons/COLOR_WAVE.webp",
+  "size": 882,
+  "sha256": "4819e7ab5f6c9d5df83462038be9aa5177934874dca5ed31e9c4d5fdd30bb65f",
+  "url": "https://discord.com/assets/7ce5a942a5cc7cba.webp"
  }
 ]
