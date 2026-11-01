@@ -8,6 +8,12 @@ A server plugin for the [SillyTavern-Discord](https://github.com/pervertir/Silly
 
 The art belongs to Discord and its licensors. Your copies are for your own use.
 
+## When Discord refuses a file
+
+If Discord answers with an error, can't be reached or times out, the plugin reads the same file from this repo's private `art` branch, using the GitHub login saved for git on your machine. The login is never logged, stored or sent to a page. If there's no login, or it has no access to the repo, the request fails as it would without the backup. Each response's `X-Decor-Source` header says `cdn` or `repo`.
+
+For a test, start SillyTavern with `DISCORD_DECOR_BLOCK_CDN=<text>` to treat addresses containing that text as refused.
+
 ## Install
 
 1. In SillyTavern's `config.yaml`, set `enableServerPlugins: true`.
