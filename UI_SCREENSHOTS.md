@@ -14,6 +14,8 @@ Keep the art on your own SillyTavern server: every kind, the ones in use, or ite
 
 ![offline copies](.github/screenshots/clip-offline-copies.webp)
 
+![offline saved](.github/screenshots/offline-saved.webp)
+
 ## Worn everywhere
 
 The avatar decoration sits around the picture, the nameplate behind the name in the DM and member lists, and the effect and frame on the profile.
