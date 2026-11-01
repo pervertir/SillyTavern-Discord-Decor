@@ -17,6 +17,8 @@ import { fileURLToPath } from 'node:url';
 
 const HOST = 'cdn.discordapp.com';
 const PATHS = ['/avatar-decoration-presets/', '/assets/collectibles/', '/assets/content/', '/media/v1/collectibles-shop/'];
+/** App Icons are among the client's own files, named by a hash */
+const APP_ICON = /^\/assets\/[a-f0-9]{16}\.webp$/;
 const MAX_BYTES = 50 * 1024 * 1024;
 const TIMEOUT_MS = 60 * 1000;
 const RAW = 'https://raw.githubusercontent.com/pervertir/SillyTavern-Discord-Decor/art/';
@@ -38,8 +40,13 @@ export function allowedUrl(address) {
     } catch {
         return null;
     }
-    const allowed = url.protocol === 'https:' && url.hostname === HOST && !url.username && !url.password
-        && !url.port && !url.pathname.includes('..') && !url.pathname.includes('%2')
+    if (url.protocol !== 'https:' || url.username || url.password || url.port) {
+        return null;
+    }
+    if (url.hostname === 'discord.com') {
+        return APP_ICON.test(url.pathname) ? url : null;
+    }
+    const allowed = url.hostname === HOST && !url.pathname.includes('..') && !url.pathname.includes('%2')
         && PATHS.some(part => url.pathname.startsWith(part));
     return allowed ? url : null;
 }
