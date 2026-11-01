@@ -1,0 +1,14 @@
+{
+  "name": "sillytavern-discord-decor",
+  "version": "1.0.0",
+  "description": "SillyTavern server plugin that fetches Discord profile art for the SillyTavern-Discord theme to keep offline.",
+  "main": "index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "author": "pervertir",
+  "private": true,
+  "repository": "github:pervertir/SillyTavern-Discord-Decor",
+  "scripts": {
+    "test": "node --test"
+  }
+}
