@@ -8,6 +8,8 @@ This plugin has no screen of its own. It powers Offline Copies and the profile a
 
 Keep the art on your own SillyTavern server: every kind, the ones in use, or item by item, with a size breakdown first. Use only saved copies stops loading from Discord.
 
+![plugin banner](.github/screenshots/plugin-banner.webp)
+
 ![offline copies](.github/screenshots/offline-copies.webp)
 
 ![offline in use ticked](.github/screenshots/offline-in-use-ticked.webp)
@@ -23,6 +25,16 @@ The avatar decoration sits around the picture, the nameplate behind the name in 
 ![profile effect](.github/screenshots/clip-profile-effect.webp)
 
 ![nav dm hover nameplate](.github/screenshots/nav-dm-hover-nameplate.webp)
+
+## Background and picture per chat
+
+Background and Picture in Change Look apply to the open chat only: your backgrounds, the character's gallery or your own files.
+
+![look background](.github/screenshots/look-background.webp)
+
+![look picture](.github/screenshots/look-picture.webp)
+
+![look chat background](.github/screenshots/look-chat-background.webp)
 
 ## Change Look
 

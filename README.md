@@ -18,7 +18,7 @@ Every feature, with pictures: **[UI_SCREENSHOTS.md](UI_SCREENSHOTS.md)**.
 
 ## When Discord refuses a file
 
-If Discord answers with an error, can't be reached or times out, the plugin reads the same file from this repo's private `art` branch, using the GitHub login saved for git on your machine. The login is never logged, stored or sent to a page. If there's no login, or it has no access to the repo, the request fails as it would without the backup. Each response's `X-Decor-Source` header says `cdn` or `repo`.
+If Discord answers with an error, can't be reached or times out, the plugin reads the same file from this repo's `art` branch. It uses the GitHub login saved for git on your machine; the login is never logged, stored or sent to a page. With no login, or if the branch can't be read, the request fails as it would without the backup. Each response's `X-Decor-Source` header says `cdn` or `repo`.
 
 For a test, start SillyTavern with `DISCORD_DECOR_BLOCK_CDN=<text>` to treat addresses containing that text as refused.
 
@@ -34,6 +34,8 @@ For a test, start SillyTavern with `DISCORD_DECOR_BLOCK_CDN=<text>` to treat add
 3. Restart SillyTavern.
 
 ## What happens next
+
+The theme also works without this plugin, showing a banner with install help until you dismiss it, but it can then only save decorations (or everything, with SillyTavern's CORS proxy on).
 
 The theme downloads a starter set once: everything your characters and personas are using, plus the first 6 items of each kind. Choose anything else, or delete what you don't want, under Change Look > **Offline Copies**. If **Use only saved copies** is on, nothing downloads by itself.
 
